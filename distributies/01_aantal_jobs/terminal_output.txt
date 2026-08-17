@@ -1,0 +1,44 @@
+/home/radi/Documents/Digitale_signaalverwerking/werkcollege/software_sim/.venv/bin/python /home/radi/Documents/Digitale_signaalverwerking/werkcollege/software_sim/distributies/01_aantal_jobs.py
+=================================================================
+[1/5] Historische data inladen (via data_loader)...
+[Data Loader] Historische data inladen...
+[2/5] Bestaande modellen inladen uit JSON...
+
+--- MODEL OVERZICHT ---
+
+MAANDAG:
+Punt_1     | Model: DMM   | Kans op Feestdag/Dip:  8.7% | Kans Normaal: 91.3% | AIC:  669.5 | RMSE: 3.62%
+Punt_2     | Model: DMM   | Kans op Feestdag/Dip: 12.8% | Kans Normaal: 87.2% | AIC:  658.6 | RMSE: 3.90%
+Punt_3     | Model: ZIP   | Kans op Feestdag/Dip:  8.7% | Kans Normaal: 91.3% | AIC:  525.0 | RMSE: 6.46%
+Punt_4     | Model: ZIP   | Kans op Feestdag/Dip:  8.6% | Kans Normaal: 91.4% | AIC:  431.2 | RMSE: 9.36%
+
+DINSDAG:
+Punt_1     | Model: DMM   | Kans op Feestdag/Dip:  5.0% | Kans Normaal: 95.0% | AIC:  654.6 | RMSE: 4.98%
+Punt_2     | Model: DMM   | Kans op Feestdag/Dip:  5.0% | Kans Normaal: 95.0% | AIC:  628.5 | RMSE: 4.79%
+Punt_3     | Model: ZIP   | Kans op Feestdag/Dip:  3.9% | Kans Normaal: 96.1% | AIC:  514.7 | RMSE: 6.44%
+Punt_4     | Model: ZIP   | Kans op Feestdag/Dip:  3.4% | Kans Normaal: 96.6% | AIC:  459.5 | RMSE: 9.54%
+
+WOENSDAG:
+Punt_1     | Model: DMM   | Kans op Feestdag/Dip:  5.0% | Kans Normaal: 95.0% | AIC:  664.6 | RMSE: 4.03%
+Punt_2     | Model: DMM   | Kans op Feestdag/Dip:  6.6% | Kans Normaal: 93.4% | AIC:  628.1 | RMSE: 3.78%
+Punt_3     | Model: ZIP   | Kans op Feestdag/Dip:  5.7% | Kans Normaal: 94.3% | AIC:  531.8 | RMSE: 5.26%
+Punt_4     | Model: ZIP   | Kans op Feestdag/Dip:  3.5% | Kans Normaal: 96.5% | AIC:  420.3 | RMSE: 11.10%
+
+DONDERDAG:
+Punt_1     | Model: DMM   | Kans op Feestdag/Dip:  9.6% | Kans Normaal: 90.4% | AIC:  683.3 | RMSE: 5.93%
+Punt_2     | Model: DMM   | Kans op Feestdag/Dip: 10.6% | Kans Normaal: 89.4% | AIC:  640.7 | RMSE: 3.81%
+Punt_3     | Model: ZIP   | Kans op Feestdag/Dip:  8.6% | Kans Normaal: 91.4% | AIC:  550.2 | RMSE: 6.76%
+Punt_4     | Model: ZIP   | Kans op Feestdag/Dip:  8.3% | Kans Normaal: 91.7% | AIC:  485.1 | RMSE: 6.99%
+
+VRIJDAG:
+Punt_1     | Model: DMM   | Kans op Feestdag/Dip: 10.7% | Kans Normaal: 89.3% | AIC:  618.9 | RMSE: 6.88%
+Punt_2     | Model: DMM   | Kans op Feestdag/Dip:  9.7% | Kans Normaal: 90.3% | AIC:  616.5 | RMSE: 3.62%
+Punt_3     | Model: DMM   | Kans op Feestdag/Dip: 12.3% | Kans Normaal: 87.7% | AIC:  541.0 | RMSE: 4.83%
+Punt_4     | Model: ZIP   | Kans op Feestdag/Dip:  8.4% | Kans Normaal: 91.6% | AIC:  393.1 | RMSE: 10.81%
+[Info] Modellen + condities weggeschreven naar '01_aantal_jobs_models_params.json'.
+[4/5] Simuleren van 2500 dagen met conditionele Anker-logica...
+[5/5] Submappen aanmaken en 5 individuele grafieken per categorie genereren...
+
+[OK] Klaar! Je overzichtelijke mappenstructuur staat klaar in: '01_aantal_jobs/'
+
+Process finished with exit code 0

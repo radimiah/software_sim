@@ -1,0 +1,7 @@
+=== STRATEGISCHE VLOOT SIMULATIE ===
+Vlootbeslissing gebaseerd op: P10 van het Service Level (moet >= 95.0% zijn)
+
+
+======================================================================
+[ITERATIE 1] Simuleren met Vloot: {'Punt_1': 20, 'Punt_2': 14, 'Punt_3': 10, 'Punt_4': 7} (Algoritme: FCFS_KEYS)
+======================================================================

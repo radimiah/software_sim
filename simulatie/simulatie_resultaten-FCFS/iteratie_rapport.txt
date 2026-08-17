@@ -1,0 +1,365 @@
+=== STRATEGISCHE VLOOT SIMULATIE ===
+Vlootbeslissing gebaseerd op: P10 van het Service Level (moet >= 95.0% zijn)
+
+
+======================================================================
+[ITERATIE 1] Simuleren met Vloot: {'Punt_1': 20, 'Punt_2': 14, 'Punt_3': 10, 'Punt_4': 7} (Algoritme: FCFS)
+======================================================================
+
+Locatie: Punt_1 (Vloot: 20 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 96.78%
+  - 95% CI van Service Level       : [96.68%, 96.87%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 95.87%
+  - P10 Service Level              : 96.03%
+  - P25 Service Level              : 96.39%
+  - P50 Service Level (Mediaan)    : 96.86%
+  - P75 Service Level              : 97.18%
+  - P90 Service Level              : 97.41%
+  - P95 Service Level              : 97.45%
+  - P10 gebruikt voor beslissing    : 96.03%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 33.05%
+  - Gemiddeld geweigerde ritten    : 177.9 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 243 ritten geweigerd
+
+Locatie: Punt_2 (Vloot: 14 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.88%
+  - 95% CI van Service Level       : [97.79%, 97.97%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 97.05%
+  - P10 Service Level              : 97.24%
+  - P25 Service Level              : 97.63%
+  - P50 Service Level (Mediaan)    : 97.94%
+  - P75 Service Level              : 98.23%
+  - P90 Service Level              : 98.41%
+  - P95 Service Level              : 98.53%
+  - P10 gebruikt voor beslissing    : 97.24%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 38.27%
+  - Gemiddeld geweigerde ritten    : 80.9 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 134 ritten geweigerd
+
+Locatie: Punt_3 (Vloot: 10 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.19%
+  - 95% CI van Service Level       : [97.09%, 97.29%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.36%
+  - P10 Service Level              : 96.56%
+  - P25 Service Level              : 96.88%
+  - P50 Service Level (Mediaan)    : 97.19%
+  - P75 Service Level              : 97.51%
+  - P90 Service Level              : 97.80%
+  - P95 Service Level              : 98.06%
+  - P10 gebruikt voor beslissing    : 96.56%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 25.65%
+  - Gemiddeld geweigerde ritten    : 55.8 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 90 ritten geweigerd
+
+Locatie: Punt_4 (Vloot: 7 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 98.98%
+  - 95% CI van Service Level       : [98.89%, 99.08%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 98.11%
+  - P10 Service Level              : 98.40%
+  - P25 Service Level              : 98.70%
+  - P50 Service Level (Mediaan)    : 99.08%
+  - P75 Service Level              : 99.28%
+  - P90 Service Level              : 99.50%
+  - P95 Service Level              : 99.69%
+  - P10 gebruikt voor beslissing    : 98.40%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 17.58%
+  - Gemiddeld geweigerde ritten    : 10.1 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 25 ritten geweigerd
+ ✅ Punt_3 zit veilig op P10=96.56%. We halen 1 auto weg.
+ ✅ Punt_1 zit veilig op P10=96.03%. We halen 1 auto weg.
+ ✅ Punt_2 zit veilig op P10=97.24%. We halen 1 auto weg.
+ ✅ Punt_4 zit veilig op P10=98.40%. We halen 1 auto weg.
+
+
+======================================================================
+[ITERATIE 2] Simuleren met Vloot: {'Punt_1': 19, 'Punt_2': 13, 'Punt_3': 9, 'Punt_4': 6} (Algoritme: FCFS)
+======================================================================
+
+Locatie: Punt_1 (Vloot: 19 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 95.48%
+  - 95% CI van Service Level       : [95.38%, 95.58%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 94.76%
+  - P10 Service Level              : 94.82%
+  - P25 Service Level              : 95.12%
+  - P50 Service Level (Mediaan)    : 95.45%
+  - P75 Service Level              : 95.87%
+  - P90 Service Level              : 96.15%
+  - P95 Service Level              : 96.33%
+  - P10 gebruikt voor beslissing    : 94.82%
+  - % jaren onder 95.0% drempel        : 19.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 34.34%
+  - Gemiddeld geweigerde ritten    : 250.1 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 320 ritten geweigerd
+
+Locatie: Punt_2 (Vloot: 13 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 96.58%
+  - 95% CI van Service Level       : [96.47%, 96.69%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 95.66%
+  - P10 Service Level              : 95.78%
+  - P25 Service Level              : 96.23%
+  - P50 Service Level (Mediaan)    : 96.60%
+  - P75 Service Level              : 96.94%
+  - P90 Service Level              : 97.20%
+  - P95 Service Level              : 97.42%
+  - P10 gebruikt voor beslissing    : 95.78%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 40.53%
+  - Gemiddeld geweigerde ritten    : 131.1 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 192 ritten geweigerd
+
+Locatie: Punt_3 (Vloot: 9 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 94.98%
+  - 95% CI van Service Level       : [94.80%, 95.15%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 93.49%
+  - P10 Service Level              : 93.72%
+  - P25 Service Level              : 94.41%
+  - P50 Service Level (Mediaan)    : 94.99%
+  - P75 Service Level              : 95.56%
+  - P90 Service Level              : 96.16%
+  - P95 Service Level              : 96.38%
+  - P10 gebruikt voor beslissing    : 93.72%
+  - % jaren onder 95.0% drempel        : 50.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 27.84%
+  - Gemiddeld geweigerde ritten    : 99.9 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 151 ritten geweigerd
+
+Locatie: Punt_4 (Vloot: 6 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.33%
+  - 95% CI van Service Level       : [97.17%, 97.48%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 95.93%
+  - P10 Service Level              : 96.32%
+  - P25 Service Level              : 96.81%
+  - P50 Service Level (Mediaan)    : 97.33%
+  - P75 Service Level              : 97.92%
+  - P90 Service Level              : 98.29%
+  - P95 Service Level              : 98.50%
+  - P10 gebruikt voor beslissing    : 96.32%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 20.42%
+  - Gemiddeld geweigerde ritten    : 26.8 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 51 ritten geweigerd
+ ⚠️ Punt_3 zakt onder 95.0% (P10). Vlootgrootte VASTGEZET op 10 wagens.
+ ⚠️ Punt_1 zakt onder 95.0% (P10). Vlootgrootte VASTGEZET op 20 wagens.
+ ✅ Punt_2 zit veilig op P10=95.78%. We halen 1 auto weg.
+ ✅ Punt_4 zit veilig op P10=96.32%. We halen 1 auto weg.
+
+
+======================================================================
+[ITERATIE 3] Simuleren met Vloot: {'Punt_1': 20, 'Punt_2': 12, 'Punt_3': 10, 'Punt_4': 5} (Algoritme: FCFS)
+======================================================================
+
+Locatie: Punt_1 (Vloot: 20 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 96.77%
+  - 95% CI van Service Level       : [96.67%, 96.86%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 95.94%
+  - P10 Service Level              : 96.10%
+  - P25 Service Level              : 96.45%
+  - P50 Service Level (Mediaan)    : 96.80%
+  - P75 Service Level              : 97.11%
+  - P90 Service Level              : 97.30%
+  - P95 Service Level              : 97.49%
+  - P10 gebruikt voor beslissing    : 96.10%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 33.04%
+  - Gemiddeld geweigerde ritten    : 177.5 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 239 ritten geweigerd
+
+Locatie: Punt_2 (Vloot: 12 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 94.49%
+  - 95% CI van Service Level       : [94.37%, 94.62%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 93.44%
+  - P10 Service Level              : 93.69%
+  - P25 Service Level              : 94.12%
+  - P50 Service Level (Mediaan)    : 94.54%
+  - P75 Service Level              : 94.87%
+  - P90 Service Level              : 95.33%
+  - P95 Service Level              : 95.57%
+  - P10 gebruikt voor beslissing    : 93.69%
+  - % jaren onder 95.0% drempel        : 81.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 42.85%
+  - Gemiddeld geweigerde ritten    : 210.5 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 277 ritten geweigerd
+
+Locatie: Punt_3 (Vloot: 10 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.26%
+  - 95% CI van Service Level       : [97.15%, 97.37%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.22%
+  - P10 Service Level              : 96.60%
+  - P25 Service Level              : 96.92%
+  - P50 Service Level (Mediaan)    : 97.31%
+  - P75 Service Level              : 97.64%
+  - P90 Service Level              : 97.91%
+  - P95 Service Level              : 98.12%
+  - P10 gebruikt voor beslissing    : 96.60%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 25.55%
+  - Gemiddeld geweigerde ritten    : 54.2 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 86 ritten geweigerd
+
+Locatie: Punt_4 (Vloot: 5 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 93.95%
+  - 95% CI van Service Level       : [93.75%, 94.16%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 92.44%
+  - P10 Service Level              : 92.61%
+  - P25 Service Level              : 93.29%
+  - P50 Service Level (Mediaan)    : 93.96%
+  - P75 Service Level              : 94.59%
+  - P90 Service Level              : 95.34%
+  - P95 Service Level              : 95.68%
+  - P10 gebruikt voor beslissing    : 92.61%
+  - % jaren onder 95.0% drempel        : 83.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 23.38%
+  - Gemiddeld geweigerde ritten    : 60.2 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 88 ritten geweigerd
+ ⚠️ Punt_2 zakt onder 95.0% (P10). Vlootgrootte VASTGEZET op 13 wagens.
+ ⚠️ Punt_4 zakt onder 95.0% (P10). Vlootgrootte VASTGEZET op 6 wagens.
+
+
+**********************************************************************
+ ALLE LOCATIES ZIJN GEOPTIMALISEERD.
+ START FINALE VALIDATIE RUN MET EINDVLOOT
+**********************************************************************
+
+
+======================================================================
+[ITERATIE FINAAL] Simuleren met Vloot: {'Punt_1': 20, 'Punt_2': 13, 'Punt_3': 10, 'Punt_4': 6} (Algoritme: FCFS)
+======================================================================
+
+Locatie: Punt_1 (Vloot: 20 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 96.76%
+  - 95% CI van Service Level       : [96.66%, 96.86%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 95.90%
+  - P10 Service Level              : 96.07%
+  - P25 Service Level              : 96.44%
+  - P50 Service Level (Mediaan)    : 96.76%
+  - P75 Service Level              : 97.13%
+  - P90 Service Level              : 97.41%
+  - P95 Service Level              : 97.57%
+  - P10 gebruikt voor beslissing    : 96.07%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 33.25%
+  - Gemiddeld geweigerde ritten    : 179.0 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 252 ritten geweigerd
+
+Locatie: Punt_2 (Vloot: 13 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 96.50%
+  - 95% CI van Service Level       : [96.41%, 96.60%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 95.79%
+  - P10 Service Level              : 95.85%
+  - P25 Service Level              : 96.21%
+  - P50 Service Level (Mediaan)    : 96.50%
+  - P75 Service Level              : 96.83%
+  - P90 Service Level              : 97.04%
+  - P95 Service Level              : 97.22%
+  - P10 gebruikt voor beslissing    : 95.85%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 40.69%
+  - Gemiddeld geweigerde ritten    : 134.0 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 189 ritten geweigerd
+
+Locatie: Punt_3 (Vloot: 10 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.31%
+  - 95% CI van Service Level       : [97.20%, 97.43%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.39%
+  - P10 Service Level              : 96.57%
+  - P25 Service Level              : 96.88%
+  - P50 Service Level (Mediaan)    : 97.35%
+  - P75 Service Level              : 97.75%
+  - P90 Service Level              : 98.08%
+  - P95 Service Level              : 98.16%
+  - P10 gebruikt voor beslissing    : 96.57%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 25.62%
+  - Gemiddeld geweigerde ritten    : 53.5 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 93 ritten geweigerd
+
+Locatie: Punt_4 (Vloot: 6 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.33%
+  - 95% CI van Service Level       : [97.20%, 97.47%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.02%
+  - P10 Service Level              : 96.40%
+  - P25 Service Level              : 96.84%
+  - P50 Service Level (Mediaan)    : 97.43%
+  - P75 Service Level              : 97.80%
+  - P90 Service Level              : 98.16%
+  - P95 Service Level              : 98.42%
+  - P10 gebruikt voor beslissing    : 96.40%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 20.24%
+  - Gemiddeld geweigerde ritten    : 26.6 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Worst-case jaar (P100)         : 44 ritten geweigerd
+
+
+**********************************************************************
+ EINDOORDEEL BEREIKT
+**********************************************************************
+Eindvloot: {'Punt_1': 20, 'Punt_2': 13, 'Punt_3': 10, 'Punt_4': 6}
+

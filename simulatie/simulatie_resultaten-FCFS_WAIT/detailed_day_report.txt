@@ -1,0 +1,163 @@
+Detailrapport voor dag 0 (Weekdag index: 0)
+
+Per locatie:
+
+--- Locatie: Punt_1 ---
+Aantal jobs op die dag: 28
+Alle jobs (per aanvraag) met details:
+Job 0: lead_time=17.70h, requested_start=5.50h, start=5.50h, duratie=2.19h, end=7.69h, status=Geaccepteerd, wait=0.0, car_id=1
+Job 1: lead_time=163.70h, requested_start=8.00h, start=8.00h, duratie=7.50h, end=15.50h, status=Geaccepteerd, wait=0.0, car_id=1
+Job 2: lead_time=168.96h, requested_start=11.50h, start=11.50h, duratie=9.50h, end=21.00h, status=Geaccepteerd, wait=0.0, car_id=2
+Job 3: lead_time=12.40h, requested_start=6.00h, start=6.00h, duratie=9.50h, end=15.50h, status=Geaccepteerd, wait=0.0, car_id=3
+Job 4: lead_time=18.19h, requested_start=9.93h, start=9.93h, duratie=48.00h, end=57.93h, status=Geaccepteerd, wait=0.0, car_id=4
+Job 5: lead_time=24.90h, requested_start=5.50h, start=5.50h, duratie=9.56h, end=15.06h, status=Geaccepteerd, wait=0.0, car_id=5
+Job 6: lead_time=23.55h, requested_start=13.02h, start=13.02h, duratie=9.00h, end=22.02h, status=Geaccepteerd, wait=0.0, car_id=6
+Job 7: lead_time=21.47h, requested_start=7.57h, start=7.57h, duratie=9.41h, end=16.98h, status=Geaccepteerd, wait=0.0, car_id=7
+Job 8: lead_time=17.46h, requested_start=14.00h, start=14.00h, duratie=3.00h, end=17.00h, status=Geaccepteerd, wait=0.0, car_id=8
+Job 9: lead_time=45.06h, requested_start=14.16h, start=14.16h, duratie=1.50h, end=15.66h, status=Geaccepteerd, wait=0.0, car_id=9
+Job 10: lead_time=12.68h, requested_start=6.29h, start=6.29h, duratie=9.50h, end=15.79h, status=Geaccepteerd, wait=0.0, car_id=10
+Job 11: lead_time=18.32h, requested_start=5.00h, start=5.00h, duratie=9.50h, end=14.50h, status=Geaccepteerd, wait=0.0, car_id=11
+Job 12: lead_time=84.00h, requested_start=10.00h, start=10.00h, duratie=5.50h, end=15.50h, status=Geaccepteerd, wait=0.0, car_id=12
+Job 13: lead_time=70.12h, requested_start=12.00h, start=12.00h, duratie=4.00h, end=16.00h, status=Geaccepteerd, wait=0.0, car_id=13
+Job 14: lead_time=8.79h, requested_start=7.11h, start=7.11h, duratie=4.50h, end=11.61h, status=Geaccepteerd, wait=0.0, car_id=6
+Job 15: lead_time=112.37h, requested_start=9.05h, start=9.05h, duratie=4.00h, end=13.05h, status=Geaccepteerd, wait=0.0, car_id=8
+Job 16: lead_time=15.78h, requested_start=6.50h, start=6.50h, duratie=9.37h, end=15.87h, status=Geaccepteerd, wait=0.0, car_id=14
+Job 17: lead_time=39.86h, requested_start=10.00h, start=10.00h, duratie=10.00h, end=20.00h, status=Geaccepteerd, wait=0.0, car_id=15
+Job 18: lead_time=15.85h, requested_start=9.00h, start=9.00h, duratie=9.57h, end=18.57h, status=Geaccepteerd, wait=0.0, car_id=16
+Job 19: lead_time=28.14h, requested_start=8.52h, start=8.52h, duratie=9.50h, end=18.02h, status=Geaccepteerd, wait=0.0, car_id=17
+Job 20: lead_time=20.42h, requested_start=9.22h, start=9.22h, duratie=1.50h, end=10.72h, status=Geaccepteerd, wait=0.0, car_id=2
+Job 21: lead_time=23.56h, requested_start=6.26h, start=6.26h, duratie=2.78h, end=9.04h, status=Geaccepteerd, wait=0.0, car_id=4
+Job 22: lead_time=22.22h, requested_start=7.50h, start=7.50h, duratie=9.49h, end=16.99h, status=Geaccepteerd, wait=0.0, car_id=18
+Job 23: lead_time=184.62h, requested_start=5.19h, start=5.19h, duratie=9.50h, end=14.69h, status=Geaccepteerd, wait=0.0, car_id=19
+Job 24: lead_time=4.00h, requested_start=6.50h, start=6.50h, duratie=3.50h, end=10.00h, status=Geaccepteerd, wait=0.0, car_id=9
+Job 25: lead_time=2.21h, requested_start=10.00h, start=10.00h, duratie=6.50h, end=16.50h, status=Geaccepteerd, wait=0.0, car_id=20
+Job 26: lead_time=10.47h, requested_start=18.41h, start=18.41h, duratie=9.50h, end=27.91h, status=Geaccepteerd, wait=0.0, car_id=1
+Job 27: lead_time=4.11h, requested_start=13.00h, start=13.00h, duratie=4.00h, end=17.00h, status=Geweigerd, wait=nan, car_id=N/A
+
+Per auto (geaccepteerde jobs, op volgorde):
+Auto 1: 3 jobs
+  - Job at 5.50 - 7.69 (dur=2.19)
+  - Job at 8.00 - 15.50 (dur=7.50)
+  - Job at 18.41 - 27.91 (dur=9.50)
+Auto 2: 2 jobs
+  - Job at 9.22 - 10.72 (dur=1.50)
+  - Job at 11.50 - 21.00 (dur=9.50)
+Auto 3: 1 jobs
+  - Job at 6.00 - 15.50 (dur=9.50)
+Auto 4: 2 jobs
+  - Job at 6.26 - 9.04 (dur=2.78)
+  - Job at 9.93 - 57.93 (dur=48.00)
+Auto 5: 1 jobs
+  - Job at 5.50 - 15.06 (dur=9.56)
+Auto 6: 2 jobs
+  - Job at 7.11 - 11.61 (dur=4.50)
+  - Job at 13.02 - 22.02 (dur=9.00)
+Auto 7: 1 jobs
+  - Job at 7.57 - 16.98 (dur=9.41)
+Auto 8: 2 jobs
+  - Job at 9.05 - 13.05 (dur=4.00)
+  - Job at 14.00 - 17.00 (dur=3.00)
+Auto 9: 2 jobs
+  - Job at 6.50 - 10.00 (dur=3.50)
+  - Job at 14.16 - 15.66 (dur=1.50)
+Auto 10: 1 jobs
+  - Job at 6.29 - 15.79 (dur=9.50)
+Auto 11: 1 jobs
+  - Job at 5.00 - 14.50 (dur=9.50)
+Auto 12: 1 jobs
+  - Job at 10.00 - 15.50 (dur=5.50)
+Auto 13: 1 jobs
+  - Job at 12.00 - 16.00 (dur=4.00)
+Auto 14: 1 jobs
+  - Job at 6.50 - 15.87 (dur=9.37)
+Auto 15: 1 jobs
+  - Job at 10.00 - 20.00 (dur=10.00)
+Auto 16: 1 jobs
+  - Job at 9.00 - 18.57 (dur=9.57)
+Auto 17: 1 jobs
+  - Job at 8.52 - 18.02 (dur=9.50)
+Auto 18: 1 jobs
+  - Job at 7.50 - 16.99 (dur=9.49)
+Auto 19: 1 jobs
+  - Job at 5.19 - 14.69 (dur=9.50)
+Auto 20: 1 jobs
+  - Job at 10.00 - 16.50 (dur=6.50)
+Minimaal benodigde auto's (piek overlap): 20
+
+
+--- Locatie: Punt_2 ---
+Aantal jobs op die dag: 13
+Alle jobs (per aanvraag) met details:
+Job 0: lead_time=216.13h, requested_start=8.90h, start=8.90h, duratie=7.00h, end=15.90h, status=Geaccepteerd, wait=0.0, car_id=1
+Job 1: lead_time=11.48h, requested_start=9.59h, start=9.59h, duratie=3.04h, end=12.63h, status=Geaccepteerd, wait=0.0, car_id=2
+Job 2: lead_time=56.23h, requested_start=8.87h, start=8.87h, duratie=3.50h, end=12.37h, status=Geaccepteerd, wait=0.0, car_id=3
+Job 3: lead_time=23.79h, requested_start=13.00h, start=13.00h, duratie=2.50h, end=15.50h, status=Geaccepteerd, wait=0.0, car_id=2
+Job 4: lead_time=19.42h, requested_start=15.50h, start=15.50h, duratie=9.50h, end=25.00h, status=Geaccepteerd, wait=0.0, car_id=3
+Job 5: lead_time=314.01h, requested_start=16.00h, start=16.00h, duratie=9.50h, end=25.50h, status=Geaccepteerd, wait=0.0, car_id=2
+Job 6: lead_time=40.88h, requested_start=13.50h, start=13.50h, duratie=9.00h, end=22.50h, status=Geaccepteerd, wait=0.0, car_id=4
+Job 7: lead_time=40.56h, requested_start=16.00h, start=16.00h, duratie=9.50h, end=25.50h, status=Geaccepteerd, wait=0.0, car_id=5
+Job 8: lead_time=12.27h, requested_start=17.00h, start=17.00h, duratie=9.50h, end=26.50h, status=Geaccepteerd, wait=0.0, car_id=1
+Job 9: lead_time=1.59h, requested_start=8.53h, start=8.53h, duratie=6.00h, end=14.53h, status=Geaccepteerd, wait=0.0, car_id=5
+Job 10: lead_time=2.44h, requested_start=16.00h, start=16.00h, duratie=9.50h, end=25.50h, status=Geaccepteerd, wait=0.0, car_id=6
+Job 11: lead_time=1.53h, requested_start=17.61h, start=17.61h, duratie=9.50h, end=27.11h, status=Geaccepteerd, wait=0.0, car_id=7
+Job 12: lead_time=1.43h, requested_start=17.78h, start=17.78h, duratie=9.50h, end=27.28h, status=Geaccepteerd, wait=0.0, car_id=8
+
+Per auto (geaccepteerde jobs, op volgorde):
+Auto 1: 2 jobs
+  - Job at 8.90 - 15.90 (dur=7.00)
+  - Job at 17.00 - 26.50 (dur=9.50)
+Auto 2: 3 jobs
+  - Job at 9.59 - 12.63 (dur=3.04)
+  - Job at 13.00 - 15.50 (dur=2.50)
+  - Job at 16.00 - 25.50 (dur=9.50)
+Auto 3: 2 jobs
+  - Job at 8.87 - 12.37 (dur=3.50)
+  - Job at 15.50 - 25.00 (dur=9.50)
+Auto 4: 1 jobs
+  - Job at 13.50 - 22.50 (dur=9.00)
+Auto 5: 2 jobs
+  - Job at 8.53 - 14.53 (dur=6.00)
+  - Job at 16.00 - 25.50 (dur=9.50)
+Auto 6: 1 jobs
+  - Job at 16.00 - 25.50 (dur=9.50)
+Auto 7: 1 jobs
+  - Job at 17.61 - 27.11 (dur=9.50)
+Auto 8: 1 jobs
+  - Job at 17.78 - 27.28 (dur=9.50)
+Minimaal benodigde auto's (piek overlap): 8
+
+
+--- Locatie: Punt_3 ---
+Aantal jobs op die dag: 8
+Alle jobs (per aanvraag) met details:
+Job 0: lead_time=20.02h, requested_start=10.50h, start=10.50h, duratie=9.00h, end=19.50h, status=Geaccepteerd, wait=0.0, car_id=1
+Job 1: lead_time=224.17h, requested_start=5.92h, start=5.92h, duratie=2.48h, end=8.40h, status=Geaccepteerd, wait=0.0, car_id=1
+Job 2: lead_time=26.00h, requested_start=11.82h, start=11.82h, duratie=4.50h, end=16.32h, status=Geaccepteerd, wait=0.0, car_id=2
+Job 3: lead_time=8.31h, requested_start=7.32h, start=7.32h, duratie=10.00h, end=17.32h, status=Geaccepteerd, wait=0.0, car_id=3
+Job 4: lead_time=4.12h, requested_start=7.15h, start=7.15h, duratie=5.00h, end=12.15h, status=Geaccepteerd, wait=0.0, car_id=4
+Job 5: lead_time=1.34h, requested_start=8.31h, start=8.31h, duratie=8.50h, end=16.81h, status=Geaccepteerd, wait=0.0, car_id=5
+Job 6: lead_time=2.27h, requested_start=12.80h, start=12.80h, duratie=6.00h, end=18.80h, status=Geaccepteerd, wait=0.0, car_id=4
+Job 7: lead_time=2.08h, requested_start=15.00h, start=15.00h, duratie=3.50h, end=18.50h, status=Geaccepteerd, wait=0.0, car_id=6
+
+Per auto (geaccepteerde jobs, op volgorde):
+Auto 1: 2 jobs
+  - Job at 5.92 - 8.40 (dur=2.48)
+  - Job at 10.50 - 19.50 (dur=9.00)
+Auto 2: 1 jobs
+  - Job at 11.82 - 16.32 (dur=4.50)
+Auto 3: 1 jobs
+  - Job at 7.32 - 17.32 (dur=10.00)
+Auto 4: 2 jobs
+  - Job at 7.15 - 12.15 (dur=5.00)
+  - Job at 12.80 - 18.80 (dur=6.00)
+Auto 5: 1 jobs
+  - Job at 8.31 - 16.81 (dur=8.50)
+Auto 6: 1 jobs
+  - Job at 15.00 - 18.50 (dur=3.50)
+Minimaal benodigde auto's (piek overlap): 6
+
+
+--- Locatie: Punt_4 ---
+Aantal jobs op die dag: 0
+
+Einde rapport

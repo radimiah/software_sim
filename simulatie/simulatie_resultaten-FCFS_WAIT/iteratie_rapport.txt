@@ -1,0 +1,413 @@
+=== STRATEGISCHE VLOOT SIMULATIE ===
+Vlootbeslissing gebaseerd op: P10 van het Service Level (moet >= 95.0% zijn)
+
+
+======================================================================
+[ITERATIE 1] Simuleren met Vloot: {'Punt_1': 20, 'Punt_2': 14, 'Punt_3': 10, 'Punt_4': 7} (Algoritme: FCFS_WAIT)
+======================================================================
+
+Locatie: Punt_1 (Vloot: 20 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 96.94%
+  - 95% CI van Service Level       : [96.85%, 97.02%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.25%
+  - P10 Service Level              : 96.36%
+  - P25 Service Level              : 96.66%
+  - P50 Service Level (Mediaan)    : 96.94%
+  - P75 Service Level              : 97.25%
+  - P90 Service Level              : 97.43%
+  - P95 Service Level              : 97.57%
+  - P10 gebruikt voor beslissing    : 96.36%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 33.20%
+  - Gemiddeld geweigerde ritten    : 169.2 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 228 ritten geweigerd
+
+Locatie: Punt_2 (Vloot: 14 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 98.02%
+  - 95% CI van Service Level       : [97.94%, 98.10%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 97.40%
+  - P10 Service Level              : 97.49%
+  - P25 Service Level              : 97.78%
+  - P50 Service Level (Mediaan)    : 98.03%
+  - P75 Service Level              : 98.30%
+  - P90 Service Level              : 98.49%
+  - P95 Service Level              : 98.63%
+  - P10 gebruikt voor beslissing    : 97.49%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 38.34%
+  - Gemiddeld geweigerde ritten    : 76.1 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 127 ritten geweigerd
+
+Locatie: Punt_3 (Vloot: 10 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.46%
+  - 95% CI van Service Level       : [97.34%, 97.58%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.51%
+  - P10 Service Level              : 96.80%
+  - P25 Service Level              : 96.94%
+  - P50 Service Level (Mediaan)    : 97.50%
+  - P75 Service Level              : 97.85%
+  - P90 Service Level              : 98.24%
+  - P95 Service Level              : 98.35%
+  - P10 gebruikt voor beslissing    : 96.80%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 25.62%
+  - Gemiddeld geweigerde ritten    : 50.5 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 83 ritten geweigerd
+
+Locatie: Punt_4 (Vloot: 7 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 99.01%
+  - 95% CI van Service Level       : [98.93%, 99.09%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 98.29%
+  - P10 Service Level              : 98.44%
+  - P25 Service Level              : 98.75%
+  - P50 Service Level (Mediaan)    : 99.06%
+  - P75 Service Level              : 99.29%
+  - P90 Service Level              : 99.49%
+  - P95 Service Level              : 99.59%
+  - P10 gebruikt voor beslissing    : 98.44%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 17.82%
+  - Gemiddeld geweigerde ritten    : 9.9 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 24 ritten geweigerd
+ ✅ Punt_3 zit veilig op P10=96.80%. We halen 1 auto weg.
+ ✅ Punt_2 zit veilig op P10=97.49%. We halen 1 auto weg.
+ ✅ Punt_4 zit veilig op P10=98.44%. We halen 1 auto weg.
+ ✅ Punt_1 zit veilig op P10=96.36%. We halen 1 auto weg.
+
+
+======================================================================
+[ITERATIE 2] Simuleren met Vloot: {'Punt_1': 19, 'Punt_2': 13, 'Punt_3': 9, 'Punt_4': 6} (Algoritme: FCFS_WAIT)
+======================================================================
+
+Locatie: Punt_1 (Vloot: 19 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 95.66%
+  - 95% CI van Service Level       : [95.55%, 95.78%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 94.67%
+  - P10 Service Level              : 94.78%
+  - P25 Service Level              : 95.33%
+  - P50 Service Level (Mediaan)    : 95.69%
+  - P75 Service Level              : 96.11%
+  - P90 Service Level              : 96.44%
+  - P95 Service Level              : 96.59%
+  - P10 gebruikt voor beslissing    : 94.78%
+  - % jaren onder 95.0% drempel        : 16.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 34.47%
+  - Gemiddeld geweigerde ritten    : 240.2 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 329 ritten geweigerd
+
+Locatie: Punt_2 (Vloot: 13 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 96.77%
+  - 95% CI van Service Level       : [96.67%, 96.88%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 95.93%
+  - P10 Service Level              : 96.11%
+  - P25 Service Level              : 96.39%
+  - P50 Service Level (Mediaan)    : 96.80%
+  - P75 Service Level              : 97.10%
+  - P90 Service Level              : 97.46%
+  - P95 Service Level              : 97.61%
+  - P10 gebruikt voor beslissing    : 96.11%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 40.68%
+  - Gemiddeld geweigerde ritten    : 123.5 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 189 ritten geweigerd
+
+Locatie: Punt_3 (Vloot: 9 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 95.36%
+  - 95% CI van Service Level       : [95.21%, 95.51%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 94.06%
+  - P10 Service Level              : 94.33%
+  - P25 Service Level              : 94.85%
+  - P50 Service Level (Mediaan)    : 95.39%
+  - P75 Service Level              : 95.89%
+  - P90 Service Level              : 96.39%
+  - P95 Service Level              : 96.66%
+  - P10 gebruikt voor beslissing    : 94.33%
+  - % jaren onder 95.0% drempel        : 33.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 27.97%
+  - Gemiddeld geweigerde ritten    : 92.0 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 136 ritten geweigerd
+
+Locatie: Punt_4 (Vloot: 6 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.37%
+  - 95% CI van Service Level       : [97.23%, 97.52%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.17%
+  - P10 Service Level              : 96.46%
+  - P25 Service Level              : 97.02%
+  - P50 Service Level (Mediaan)    : 97.27%
+  - P75 Service Level              : 97.80%
+  - P90 Service Level              : 98.43%
+  - P95 Service Level              : 98.63%
+  - P10 gebruikt voor beslissing    : 96.46%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 20.37%
+  - Gemiddeld geweigerde ritten    : 26.4 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 46 ritten geweigerd
+ ⚠️ Punt_3 zakt onder 95.0% (P10). Vlootgrootte VASTGEZET op 10 wagens.
+ ✅ Punt_2 zit veilig op P10=96.11%. We halen 1 auto weg.
+ ✅ Punt_4 zit veilig op P10=96.46%. We halen 1 auto weg.
+ ⚠️ Punt_1 zakt onder 95.0% (P10). Vlootgrootte VASTGEZET op 20 wagens.
+
+
+======================================================================
+[ITERATIE 3] Simuleren met Vloot: {'Punt_1': 20, 'Punt_2': 12, 'Punt_3': 10, 'Punt_4': 5} (Algoritme: FCFS_WAIT)
+======================================================================
+
+Locatie: Punt_1 (Vloot: 20 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.00%
+  - 95% CI van Service Level       : [96.92%, 97.08%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.35%
+  - P10 Service Level              : 96.52%
+  - P25 Service Level              : 96.75%
+  - P50 Service Level (Mediaan)    : 96.98%
+  - P75 Service Level              : 97.26%
+  - P90 Service Level              : 97.53%
+  - P95 Service Level              : 97.59%
+  - P10 gebruikt voor beslissing    : 96.52%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 33.09%
+  - Gemiddeld geweigerde ritten    : 164.8 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 241 ritten geweigerd
+
+Locatie: Punt_2 (Vloot: 12 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 94.91%
+  - 95% CI van Service Level       : [94.78%, 95.04%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 93.75%
+  - P10 Service Level              : 94.19%
+  - P25 Service Level              : 94.46%
+  - P50 Service Level (Mediaan)    : 94.90%
+  - P75 Service Level              : 95.30%
+  - P90 Service Level              : 95.82%
+  - P95 Service Level              : 96.00%
+  - P10 gebruikt voor beslissing    : 94.19%
+  - % jaren onder 95.0% drempel        : 57.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 42.79%
+  - Gemiddeld geweigerde ritten    : 193.9 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 259 ritten geweigerd
+
+Locatie: Punt_3 (Vloot: 10 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.44%
+  - 95% CI van Service Level       : [97.34%, 97.55%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.64%
+  - P10 Service Level              : 96.72%
+  - P25 Service Level              : 97.08%
+  - P50 Service Level (Mediaan)    : 97.48%
+  - P75 Service Level              : 97.82%
+  - P90 Service Level              : 98.06%
+  - P95 Service Level              : 98.30%
+  - P10 gebruikt voor beslissing    : 96.72%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 25.43%
+  - Gemiddeld geweigerde ritten    : 50.5 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 83 ritten geweigerd
+
+Locatie: Punt_4 (Vloot: 5 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 94.09%
+  - 95% CI van Service Level       : [93.91%, 94.27%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 92.44%
+  - P10 Service Level              : 92.65%
+  - P25 Service Level              : 93.38%
+  - P50 Service Level (Mediaan)    : 94.18%
+  - P75 Service Level              : 94.84%
+  - P90 Service Level              : 95.21%
+  - P95 Service Level              : 95.38%
+  - P10 gebruikt voor beslissing    : 92.65%
+  - % jaren onder 95.0% drempel        : 83.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 23.31%
+  - Gemiddeld geweigerde ritten    : 58.7 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 86 ritten geweigerd
+ ⚠️ Punt_2 zakt onder 95.0% (P10). Vlootgrootte VASTGEZET op 13 wagens.
+ ⚠️ Punt_4 zakt onder 95.0% (P10). Vlootgrootte VASTGEZET op 6 wagens.
+
+
+**********************************************************************
+ ALLE LOCATIES ZIJN GEOPTIMALISEERD.
+ START FINALE VALIDATIE RUN MET EINDVLOOT
+**********************************************************************
+
+
+======================================================================
+[ITERATIE FINAAL] Simuleren met Vloot: {'Punt_1': 20, 'Punt_2': 13, 'Punt_3': 10, 'Punt_4': 6} (Algoritme: FCFS_WAIT)
+======================================================================
+
+Locatie: Punt_1 (Vloot: 20 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.00%
+  - 95% CI van Service Level       : [96.91%, 97.08%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.25%
+  - P10 Service Level              : 96.40%
+  - P25 Service Level              : 96.69%
+  - P50 Service Level (Mediaan)    : 97.00%
+  - P75 Service Level              : 97.34%
+  - P90 Service Level              : 97.60%
+  - P95 Service Level              : 97.71%
+  - P10 gebruikt voor beslissing    : 96.40%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 33.22%
+  - Gemiddeld geweigerde ritten    : 165.8 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 222 ritten geweigerd
+
+Locatie: Punt_2 (Vloot: 13 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 96.76%
+  - 95% CI van Service Level       : [96.65%, 96.87%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 95.90%
+  - P10 Service Level              : 96.00%
+  - P25 Service Level              : 96.38%
+  - P50 Service Level (Mediaan)    : 96.75%
+  - P75 Service Level              : 97.14%
+  - P90 Service Level              : 97.48%
+  - P95 Service Level              : 97.65%
+  - P10 gebruikt voor beslissing    : 96.00%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 40.62%
+  - Gemiddeld geweigerde ritten    : 124.0 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 175 ritten geweigerd
+
+Locatie: Punt_3 (Vloot: 10 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.49%
+  - 95% CI van Service Level       : [97.38%, 97.60%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.66%
+  - P10 Service Level              : 96.84%
+  - P25 Service Level              : 97.10%
+  - P50 Service Level (Mediaan)    : 97.44%
+  - P75 Service Level              : 97.85%
+  - P90 Service Level              : 98.19%
+  - P95 Service Level              : 98.33%
+  - P10 gebruikt voor beslissing    : 96.84%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 25.67%
+  - Gemiddeld geweigerde ritten    : 49.6 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 78 ritten geweigerd
+
+Locatie: Punt_4 (Vloot: 6 wagens)
+  --- Gemiddelde-gebaseerd (informatief) ---
+  - Gemiddeld Service Level        : 97.42%
+  - 95% CI van Service Level       : [97.29%, 97.56%]
+  --- Percentiel-gebaseerd (stuurt de vlootbeslissing) ---
+  - P5  Service Level              : 96.14%
+  - P10 Service Level              : 96.55%
+  - P25 Service Level              : 96.92%
+  - P50 Service Level (Mediaan)    : 97.49%
+  - P75 Service Level              : 97.93%
+  - P90 Service Level              : 98.31%
+  - P95 Service Level              : 98.49%
+  - P10 gebruikt voor beslissing    : 96.55%
+  - % jaren onder 95.0% drempel        : 0.0%
+  --- Overige metrics ---
+  - Gemiddelde Bezettingsgraad     : 20.33%
+  - Gemiddeld geweigerde ritten    : 25.8 per jaar
+  - Gemiddeld aantal No-Shows      : 0.0 per jaar
+  - Gem. Wachttijd (Geaccepteerd)  : 0 minuten
+  - 95% Wachttijd (Geaccepteerd)   : 0 minuten
+  - Max Wachttijd ooit gemeten     : 18 minuten
+  - Worst-case jaar (P100)         : 45 ritten geweigerd
+
+
+**********************************************************************
+ EINDOORDEEL BEREIKT
+**********************************************************************
+Eindvloot: {'Punt_1': 20, 'Punt_2': 13, 'Punt_3': 10, 'Punt_4': 6}
+

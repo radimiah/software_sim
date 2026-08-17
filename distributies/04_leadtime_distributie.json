@@ -1,0 +1,21 @@
+{
+    "model_type": "LogNormal_Mixture",
+    "description": "Continue lead-time distributie opgesplitst in 3 tijdsblokken.",
+    "components": {
+        "last_minute": {
+            "weight": 0.2,
+            "mu": 0.6931,
+            "sigma": 0.5
+        },
+        "vorige_dag": {
+            "weight": 0.6,
+            "mu": 3.1781,
+            "sigma": 0.4
+        },
+        "vorige_week": {
+            "weight": 0.2,
+            "mu": 4.9698,
+            "sigma": 0.5
+        }
+    }
+}

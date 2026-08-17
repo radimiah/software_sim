@@ -1,0 +1,34 @@
+/home/radi/Documents/software_simulatie/.venv/bin/python /home/radi/Documents/software_simulatie/software_simulatie/distributies/test.py
+[1/3] Historische data inladen en duraties berekenen...
+[2/3] Analyseren op meervouden en grafieken genereren...
+
+[3/3] De analyse is klaar. Hier is het kwantitatieve overzicht:
+
+===============================================================================================
+Locatie    | Dag        | Ritten | % 30-Min   | % 15-Min   | % 5-Min    | % Overig (Continu)
+-----------------------------------------------------------------------------------------------
+Punt_1     | Maandag    | 2298   |      79.4% |       2.9% |       4.2% |             13.6%
+Punt_1     | Dinsdag    | 2304   |      82.5% |       1.7% |       3.7% |             12.1%
+Punt_1     | Woensdag   | 2174   |      81.3% |       1.9% |       3.0% |             13.8%
+Punt_1     | Donderdag  | 2435   |      79.9% |       2.3% |       3.4% |             14.4%
+Punt_1     | Vrijdag    | 1764   |      82.7% |       1.1% |       2.6% |             13.7%
+Punt_2     | Maandag    | 1466   |      92.5% |       2.7% |       1.9% |              2.9%
+Punt_2     | Dinsdag    | 1709   |      91.5% |       2.8% |       2.3% |              3.5%
+Punt_2     | Woensdag   | 1459   |      93.5% |       2.4% |       1.7% |              2.4%
+Punt_2     | Donderdag  | 1745   |      92.6% |       1.6% |       2.1% |              3.7%
+Punt_2     | Vrijdag    | 1211   |      94.3% |       2.0% |       1.7% |              2.1%
+Punt_3     | Maandag    | 741    |      91.4% |       1.9% |       1.5% |              5.3%
+Punt_3     | Dinsdag    | 886    |      91.3% |       2.1% |       2.3% |              4.3%
+Punt_3     | Woensdag   | 749    |      90.8% |       1.9% |       3.1% |              4.3%
+Punt_3     | Donderdag  | 938    |      91.0% |       2.6% |       3.0% |              3.4%
+Punt_3     | Vrijdag    | 632    |      91.1% |       2.4% |       2.4% |              4.1%
+Punt_4     | Maandag    | 358    |      88.3% |       3.4% |       3.6% |              4.7%
+Punt_4     | Dinsdag    | 523    |      74.4% |       2.5% |       5.0% |             18.2%
+Punt_4     | Woensdag   | 342    |      88.6% |       3.8% |       3.5% |              4.1%
+Punt_4     | Donderdag  | 525    |      69.5% |       2.1% |       6.3% |             22.1%
+Punt_4     | Vrijdag    | 271    |      94.1% |       1.5% |       1.8% |              2.6%
+===============================================================================================
+
+[OK] Gedetailleerde plots zijn opgeslagen in '05_duur_analyse/'
+
+Process finished with exit code 0
